@@ -139,3 +139,21 @@ Hovering on each of the change should allow the user to accept or reject the cha
 - Include instructions on how to set it up and run in the [README.md](README.md)
 - Add your resume and other profile / project links
 - Submit a pull request (PR)
+
+## Instructions by Deepak Mewada
+
+1. Clone/Download my repo.
+2. Open "index.html" file in browser (make sure you open it in latest browser).
+3. Click on "View Change" button to see the difference and Now you can Approve and Reject each action.
+
+## My Profile
+4 Years of Total Experience in Front End Developer.
+Have worked on multiple Website's of Cox and Kings Pvt. Ltd. 
+and also managed and maintained Frontend of Three Product(DigiRemit, DigiForex and Lastmile) in Avenues Payment India Pvt Ltd.
+
+In Frontend i have worked on about HTML5, CCS3, JQuery, React.js, Javascript, Bootstrap.
+I have also done mini personal learning Project using PHP, Angular, Vue.js 
+
+
+
+

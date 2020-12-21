@@ -1,0 +1,48 @@
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    margin: 0 -20px;
+}
+
+.row>div {
+    width: 50%;
+    margin: 0 20px;
+}
+
+.row>div>pre {
+    width: auto;
+    height: 300px;
+    overflow: auto;
+    background-color: #e5e5e5;
+    border: 1px solid #555;
+    padding: 1rem;
+}
+
+#popup {
+    padding: 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+
+#popup h3 {
+    margin: 0 0 10px;
+}
+
+.active {
+    outline: 1px solid blue;
+}
+
+.hide {
+    opacity: 0;
+    visibility: hidden;
+}
+
+button {background-color: #5060c0;box-shadow: none;outline: none;border:none;line-height: 30px;color:#fff;padding: 0 12px;border-radius: 4px;cursor: pointer;}
+#accept {background-color: green;line-height: 24px;margin-left: 4px;}
+#reject {background-color: red;line-height: 24px;margin-left: 4px;}

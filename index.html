@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Give India</title>
+    <link rel="stylesheet" href="plugin.css" type="text/css" />
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="left">
+                <h3>Base Object</h3>
+                <pre id="leftCode"></pre>
+            </div>
+            <div class="right">
+                <h3>JSON Patch</h3>
+                <pre id="rightCode"></pre>
+            </div>
+        </div>
+        <button id="viewChange" onclick="handleClick()" style="float: right;">View Changes</button>
+        </pre>
+        <pre id="output"></pre>
+
+
+        <div id="popup" class="hide">
+            <button id="accept">Approve</button> <button id="reject">Reject</button>
+        </div>
+    </div>
+
+    <script src="jsondiffpatch.umd.min.js"></script>
+    <script src="data.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
